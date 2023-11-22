@@ -1,0 +1,30 @@
+{
+  "name": "doc-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write --ignore-path=.gitignore .",
+    "format:check": "prettier --check --ignore-path=.gitignore ."
+  },
+  "devDependencies": {
+    "@types/node": "20.8.9",
+    "@types/react": "18.2.33",
+    "autoprefixer": "^10.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "postcss": "^8.0.0",
+    "prettier": "^2.0.0",
+    "tailwindcss": "^3.0.0",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.4"
+  }
+}
